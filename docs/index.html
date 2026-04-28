@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>tmux for Aguvis: Visual-Terminal Grounding Adapter</title>
+    <meta name="description" content="A research discussion on connecting visual agent observations with tmux pane histories.">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <img class="hero-image" src="./assets/hero.png" width="700" height="500" alt="Research illustration for tmux for Aguvis: Visual-Terminal Grounding Adapter">
+
+    <header class="site-header">
+      <p class="kicker">tmux adaptation research</p>
+      <h1>tmux for Aguvis: Visual-Terminal Grounding Adapter</h1>
+      <p class="subtitle">A research discussion on connecting visual agent observations with tmux pane histories.</p>
+      <div class="meta-grid" aria-label="Project metadata">
+        <div class="meta-item"><span class="meta-label">Agent</span><span class="meta-value">Aguvis</span></div>
+        <div class="meta-item"><span class="meta-label">Track</span><span class="meta-value">Adapter Study</span></div>
+        <div class="meta-item"><span class="meta-label">Artifact</span><span class="meta-value">Static GitHub Pages discussion</span></div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h2>Abstract</h2>
+        <div>
+          <p>The adapter pairs visual pane localization with symbolic terminal events, giving Aguvis a richer account of what changed and why.</p>
+          <p>This site frames the project as an academic discussion artifact: it states the adaptation problem, proposes a design stance, and lists evaluation lenses that can be expanded into experiments.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Research Question</h2>
+        <div class="callout">
+          <p>How can Aguvis align visual observations with terminal semantics when panes, scrollback, and command phases change over time?</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Adaptation Notes</h2>
+        <div>
+          <ul>
+            <li>Visual pane regions are linked to shell-level event streams.</li>
+            <li>Scrollback and active output are modeled separately.</li>
+            <li>Session replay preserves both visual snapshots and terminal text.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Evaluation Lens</h2>
+        <div>
+          <ul>
+            <li>Visual pane localization</li>
+            <li>State alignment across scrollback changes</li>
+            <li>Trace usefulness for multimodal diagnosis</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Open Discussion</h2>
+        <div>
+          <p>The central methodological risk is mistaking terminal completion for agent understanding. The project therefore treats tmux as both infrastructure and evidence: pane state, focus movement, command output, and recovery behavior all become part of the argument.</p>
+          <p>Future work can connect this static discussion to executable harnesses, trace viewers, and standardized task suites for cross-agent comparison.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Generated as a public research discussion site for Aguvis and tmux adaptation.</p>
+    </footer>
+  </body>
+</html>
